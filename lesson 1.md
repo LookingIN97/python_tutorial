@@ -42,12 +42,30 @@ use single equal sign =
 
 **Examples**
 
+```python
 my_name = "Alex Qian"
+my_age = 2017 - 1997
+```
 
-my_age = 20
+**Quiz: which of these expressions can be used to increment the value x by 1?**
 
+A. x = x + 1
 
+B. x  += x + 1
 
+C. x += 1
 
+D. x = 1
 
 **Quiz: write a python script to calculate the distance between two points (x0, y0) and (x1, y1). **
+
+### Native datatypes
+
+1. **Booleans** are either True or False.
+2. **Numbers** can be integers, floats, fractions, or even complex numbers.
+3. **Strings**
+4. **Bytes** images (Not widely used)
+5. **Lists** are ordered sequences of values
+6. **Tuples** are ordered, immutable sequences of values
+7. **Sets** are unordered bags of values
+8. **Dictionaries** are unordered bags of key-value pairs.
