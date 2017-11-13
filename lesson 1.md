@@ -46,3 +46,8 @@ my_name = "Alex Qian"
 
 my_age = 20
 
+
+
+
+
+**Quiz: write a python script to calculate the distance between two points (x0, y0) and (x1, y1). **
