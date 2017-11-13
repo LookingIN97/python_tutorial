@@ -2,7 +2,7 @@
 
 ### Variables
 
-Placeholders for important values used to avoid recomputing values and to give values names that help reader understand code.
+###### Placeholders for important values used to avoid recomputing values and to give values names that help reader understand code.
 
 
 
