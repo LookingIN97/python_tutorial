@@ -64,5 +64,16 @@ d = 20.6 <= 18.3
 print(d)
 
 print((a and b) or (c and (not d)))
+
+
+
+from math import pi
+print(pi)
+
+import math
+print(math.pi)
+
 ```
+
+
 

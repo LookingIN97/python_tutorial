@@ -11,6 +11,13 @@ print(num1)
 # num2 is a local variable
 
 def fun():
+"""
+test local and global variables
+params:
+	a: the first integer number
+	b: the second integer number
+return: if a is equal to b
+"""
     num1 = 2
     num2 = num1 + 1
     print num2
@@ -75,6 +82,11 @@ print(num)
 
 # safer method - but they required more sophisticated
 # object-programming techniques
+
+
+
+
+
 
 
 
