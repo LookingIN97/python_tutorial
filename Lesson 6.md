@@ -72,7 +72,7 @@ class Character:
         return self.health
 
     
-class SuperCharacter:
+class SuperCharacter(character):
     def set_superpower(self, power):
         self.superpower = power
     
