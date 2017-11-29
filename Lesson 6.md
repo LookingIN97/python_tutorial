@@ -50,6 +50,42 @@ D. `guard = Npc("hoot")`
 
 
 
+### 继承
+
+```python
+class Character:
+    def __init__(self, name, initial_health):
+        self.name = name
+        self.health = initial_health
+        self.inventory = []
+        
+    def __str__(self):
+        s  = "Name: " + self.name
+        s += " Health: " + str(self.health)
+        s += " Inventory: " + str(self.inventory)
+        return s
+    
+    def grab(self, item):
+        self.inventory.append(item)
+        
+    def get_health(self):
+        return self.health
+
+    
+class SuperCharacter(character):
+    def set_superpower(self, power):
+        self.superpower = power
+    
+    def get_superpower(self):
+        return self.superpower
+```
+
+
+
+
+
+
+
 **Example**
 
 ```python
@@ -192,3 +228,4 @@ frame.set_draw_handler(draw)
 frame.start()
 ```
 
+**Quiz: Black Jack**
