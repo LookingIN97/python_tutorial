@@ -32,10 +32,12 @@ class Player(pygame.sprite.Sprite):
 
     def update(self):
         self.speedx = 0
+        
         keystate = pygame.key.get_pressed()
-        if keystate[pygame.K_LEFT]:
+        print(keystate[pygame.K_w] )
+        if keystate[pygame.K_w]:
             self.speedx = -8
-        if keystate[pygame.K_RIGHT]:
+        if keystate[pygame.K_f]:
             self.speedx = 8
         self.rect.x += self.speedx
         if self.rect.right > WIDTH:
@@ -50,6 +52,7 @@ all_sprites.add(player)
 # Game loop
 running = True
 while running:
+    pygame.event.pump()
     # keep loop running at the right speed
     clock.tick(FPS)
     # Process input (events)
