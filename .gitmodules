@@ -1,0 +1,3 @@
+[submodule "3. deep learning/tf"]
+	path = 3. deep learning/tf
+	url = https://github.com/Hvass-Labs/TensorFlow-Tutorials.git
